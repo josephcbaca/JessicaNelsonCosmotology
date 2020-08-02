@@ -1,9 +1,20 @@
-// Gallyer Page
+// Gallery Page
 
+$(document).ready(function () {
+    $(".sidenav").sidenav();
+});
+// Anytime I add an image in ./assets/totems/ I need to add number to code
+let nums = [1, 2, 3, 4, 5, 6]
 
+for (let i = 0; i < nums.length; i++) {
 
+    let imgTotem = $("<img>");
+    imgTotem.addClass("totem col s12");
+    imgTotem.attr("src", `./assets/totems/totem-${nums[i]}.png`);
 
+    $("#totemPole").append(imgTotem);
 
+}
 
 
 // Contact Page
@@ -27,4 +38,4 @@ function popUpClipBoard() {
         $("#popUp").hide();
     }, 300);
 
-  }
+}

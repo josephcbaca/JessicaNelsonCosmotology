@@ -7,10 +7,22 @@
     color: black;
 }
 
+#mobile-menu{
+    color: black;
+}
+
 .listText {
     color: black;
 }
 
 #copy-text {
     cursor: pointer
+}
+
+.totem {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
 }
