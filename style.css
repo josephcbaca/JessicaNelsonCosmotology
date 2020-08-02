@@ -9,5 +9,8 @@
 
 .listText {
     color: black;
+}
 
+#copy-text {
+    cursor: pointer
 }
