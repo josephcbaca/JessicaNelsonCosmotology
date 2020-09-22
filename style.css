@@ -2,7 +2,6 @@
     background-color: white;
 }
 
-
 #logoColor {
     color: black;
 }
@@ -22,7 +21,6 @@
 .totem {
     margin-left: auto;
     margin-right: auto;
-    /* height: 30%;
-    width: auto; */
     margin-top: 5%;
+    box-shadow: 0 0 10px lightgrey;
 }

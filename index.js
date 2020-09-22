@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(".sidenav").sidenav();
 });
 // Anytime I add an image in ./assets/totems/ I need to add number to code
-let nums = [1, 2, 3, 4, 5, 6, 7]
+let nums = [7, 6, 5, 4, 3, 2, 1]
 
 for (let i = 0; i < nums.length; i++) {
 
