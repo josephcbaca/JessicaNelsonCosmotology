@@ -17,6 +17,7 @@
 .homeText {
     color: black;
     font-weight: bold;
+    text-align: center;
 }
 
 #copy-text {
