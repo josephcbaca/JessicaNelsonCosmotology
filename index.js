@@ -31,6 +31,7 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 
+
 // Contact Page
 $("#copy-text").on("click", function () {
     copyToClipBoard("josephcbaca@gmail.com");
