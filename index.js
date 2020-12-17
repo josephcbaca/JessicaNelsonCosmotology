@@ -1,8 +1,9 @@
-// Gallery Page
-
+// Whole site
 $(document).ready(function () {
     $(".sidenav").sidenav();
 });
+
+// totems.html
 // Anytime I add an image in ./assets/totems/ I need to add number to code
 let nums = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
@@ -17,7 +18,7 @@ for (let i = 0; i < nums.length; i++) {
     beginDiv.attr("id", `begin-div-${nums[i]}`)
 
     let imgTotem = $("<img>");
-    imgTotem.addClass("totem col s6");
+    imgTotem.addClass("totem col s6 materialboxed z-depth-1");
     imgTotem.attr("src", `./assets/totems/totem-${nums[i]}.png`);
 
     let endDiv = $("<div>");
@@ -29,8 +30,6 @@ for (let i = 0; i < nums.length; i++) {
     $(`#row-${nums[i]}`).append(imgTotem);
     $(`#row-${nums[i]}`).append(endDiv);
 }
-
-
 
 // Contact Page
 $("#copy-text").on("click", function () {
@@ -55,7 +54,7 @@ function popUpClipBoard() {
 
 }
 
-// Gallery
-$(function () {
-    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-    });
+// pattern_work.html
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });

@@ -28,14 +28,24 @@
 .totem {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    box-shadow: 0 0 10px lightgrey;
+
 }
 
 .homeimage {
     width: 100%;
     height: auto;
   }
+
+.patternimage {
+  width: 50%;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+.patterntext {
+  margin-left: 5%;
+  margin-right:5%;
+}
 
   /* effect-shine */
 a.effect-shine:hover {
