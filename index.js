@@ -58,3 +58,10 @@ function popUpClipBoard() {
   $(document).ready(function(){
     $('.materialboxed').materialbox();
   });
+
+// Gibberish.html
+  $(document).ready(function(){
+    $('.carousel').carousel({
+        fullWidth: false
+    });
+  });
